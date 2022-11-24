@@ -31,7 +31,7 @@ pipeline {
                 {
                     echo "deploy to S3 "
                     sh '''
-                    aws s3 sync . s3://sortlog-frontend
+                    aws s3 sync . s3://sortlog-testS3
                     '''}
              }
             }
